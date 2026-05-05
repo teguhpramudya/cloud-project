@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Project</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">CloudProject</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#team">Team</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <h1>Deploy Website Using Docker & AWS</h1>
+
+                <p>
+                    Final Project Komputasi Awan
+                    menggunakan Docker, GitHub,
+                    dan AWS EC2.
+                </p>
+
+                <button onclick="showMessage()">
+                    Explore Project
+                </button>
+
+                <h3 id="message"></h3>
+            </div>
+        </section>
+    </header>
+
+    <section class="features" id="features">
+
+        <div class="card">
+            <h2>Docker</h2>
+            <p>
+                Website dijalankan menggunakan container Docker
+                agar deployment lebih mudah dan konsisten.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>AWS EC2</h2>
+            <p>
+                Aplikasi dihosting pada cloud server AWS EC2
+                sehingga dapat diakses secara online.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>GitHub</h2>
+            <p>
+                Source code project disimpan dalam repository
+                GitHub untuk version control.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="team" id="team">
+
+        <h1>Our Team</h1>
+
+        <div class="team-container">
+
+            <div class="team-card">
+                <img src="https://i.pravatar.cc/150?img=12">
+                <h2>Nama Anggota 1</h2>
+                <p>Frontend Developer</p>
+            </div>
+
+            <div class="team-card">
+                <img src="https://i.pravatar.cc/150?img=32">
+                <h2>Nama Anggota 2</h2>
+                <p>Cloud & DevOps</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Tugas Besar Cloud Computing</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
